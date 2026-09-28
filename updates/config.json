@@ -1,0 +1,21 @@
+{
+  "repo": "kwyjibocc/TurboGet-releases",
+  "paused": false,
+  "rollout": {
+    "stable": 100,
+    "beta": 100
+  },
+  "minimum_version": {
+    "macos": "",
+    "windows": ""
+  },
+  "mirror": {
+    "countries": [
+      "CN"
+    ],
+    "from": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/",
+    "to": "https://gitee.com/kwyjibocc/TurboGet-releases/releases/download/"
+  },
+  "components_url": "https://kwyjibocc.github.io/TurboGet-releases/updates/components.json",
+  "legacy_manifest": null
+}
