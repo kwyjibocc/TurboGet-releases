@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "sequence": 7,
+  "generated_at": "2026-09-28T16:42:56Z",
+  "components": [
+    {
+      "name": "yt-dlp",
+      "version": "2026.08.19",
+      "platform": "macos-universal",
+      "sha256": "eb3eafa48689b4eb95540967d589ed7dbf1dd78bc199321f372518e469d0f8a9",
+      "size": 52916254,
+      "archive": "zip",
+      "entry": "yt-dlp_macos",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/yt-dlp-2026.08.19-macos-universal.zip",
+      "mirrors": []
+    },
+    {
+      "name": "yt-dlp",
+      "version": "2026.08.19",
+      "platform": "windows-x86_64",
+      "sha256": "66674953fe251b89f4d08c5f0e35e0728679bd67ab3d7d05c0562af101dd3e7a",
+      "size": 17840399,
+      "archive": "raw",
+      "entry": "yt-dlp.exe",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/yt-dlp-2026.08.19-windows-x86_64.exe",
+      "mirrors": []
+    },
+    {
+      "name": "deno",
+      "version": "2.9.7",
+      "platform": "macos-arm64",
+      "sha256": "aed78cde7f8270aca652a18609406ad7719f4437a52fe6b9403b75c4013b8968",
+      "size": 80983872,
+      "archive": "raw",
+      "entry": "deno",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/deno-2.9.7-macos-arm64",
+      "mirrors": []
+    },
+    {
+      "name": "deno",
+      "version": "2.9.7",
+      "platform": "macos-x86_64",
+      "sha256": "049018f117e8aac92b213d7dd9f228e12781e14377e3a8eef64489da763d28c3",
+      "size": 97832224,
+      "archive": "raw",
+      "entry": "deno",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/deno-2.9.7-macos-x86_64",
+      "mirrors": []
+    },
+    {
+      "name": "ffmpeg",
+      "version": "9.0.2",
+      "platform": "macos-x86_64",
+      "sha256": "395f3c2fde64915ae9cacf6d2e791e23193a500073fcf5275e460b6438a37bea",
+      "size": 81478528,
+      "archive": "raw",
+      "entry": "ffmpeg",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/ffmpeg-9.0.2-macos-x86_64",
+      "mirrors": []
+    },
+    {
+      "name": "ffprobe",
+      "version": "9.0.2",
+      "platform": "macos-x86_64",
+      "sha256": "f70f64ba8e1bf5d2d36cd8d3b01385e9e93a2a076e5c36809e2b4250c4d257d0",
+      "size": 81290736,
+      "archive": "raw",
+      "entry": "ffprobe",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/ffprobe-9.0.2-macos-x86_64",
+      "mirrors": []
+    }
+  ]
+}
