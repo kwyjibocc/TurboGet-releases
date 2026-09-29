@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TurboGet 站点回归</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1d1f; --muted: #6e6e73; --line: #e5e5ea; --ok: #1f8f4e; --bad: #d1343b; --none: #c7c7cc; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #161618; --fg: #f2f2f7; --muted: #98989f; --line: #2c2c2e; --ok: #34c759; --bad: #ff5a5f; --none: #48484a; }
+  }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.5 -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 24px 16px 48px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 24px; }
+  .scroll { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { border-bottom: 1px solid var(--line); padding: 8px 6px; text-align: left; white-space: nowrap; }
+  th { color: var(--muted); font-weight: 500; font-size: 12px; }
+  .cells { display: flex; gap: 3px; }
+  .cell { width: 12px; height: 18px; border-radius: 3px; background: var(--none); }
+  .cell.ok { background: var(--ok); }
+  .cell.bad { background: var(--bad); }
+  .rate { font-variant-numeric: tabular-nums; }
+  .err { color: var(--muted); font-size: 12px; white-space: normal; max-width: 360px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>TurboGet 站点回归</h1>
+  <p class="sub" id="meta">加载中…</p>
+  <div class="scroll">
+    <table>
+      <thead><tr><th>平台</th><th>最近 30 次（左旧右新）</th><th>30 次成功率</th><th>耗时 P50 / P95</th><th>最近一次失败</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+</main>
+<script>
+(async () => {
+  const meta = document.getElementById('meta');
+  const rows = document.getElementById('rows');
+  let history = [];
+  try {
+    history = await (await fetch('history.json', { cache: 'no-store' })).json();
+  } catch (error) {
+    meta.textContent = '暂无数据：每日回归运行一次后生成。';
+    return;
+  }
+  const recent = history.slice(-30);
+  const last = recent[recent.length - 1];
+  meta.textContent = last ? `最近运行 ${last.date} · yt-dlp ${last.ytdlp} · 共 ${history.length} 次记录` : '暂无数据';
+  const platforms = [...new Set(recent.flatMap((run) => run.results.map((r) => r.platform)))].sort();
+  for (const platform of platforms) {
+    const tr = document.createElement('tr');
+    const name = document.createElement('td');
+    name.textContent = platform;
+    const cellsTd = document.createElement('td');
+    const cells = document.createElement('div');
+    cells.className = 'cells';
+    let ok = 0, total = 0, lastFailure = null;
+    const durations = [];
+    for (const run of recent) {
+      const result = run.results.find((r) => r.platform === platform);
+      const cell = document.createElement('div');
+      cell.className = 'cell' + (result ? (result.ok ? ' ok' : ' bad') : '');
+      cell.title = result ? `${run.date} · ${result.ok ? '通过' : `${result.stage} · ${result.kind}`} · ${result.ms} ms` : `${run.date} · 未运行`;
+      if (result) { total += 1; if (result.ok) { ok += 1; if (result.ms > 0) durations.push(result.ms); } else lastFailure = { run, result }; }
+      cells.appendChild(cell);
+    }
+    cellsTd.appendChild(cells);
+    const rate = document.createElement('td');
+    rate.className = 'rate';
+    rate.textContent = total ? `${Math.round((ok / total) * 100)}%` : '–';
+    const timing = document.createElement('td');
+    timing.className = 'rate';
+    durations.sort((a, b) => a - b);
+    const pick = (q) => durations[Math.min(durations.length - 1, Math.floor(q * durations.length))];
+    const seconds = (ms) => `${(ms / 1000).toFixed(1)} s`;
+    timing.textContent = durations.length ? `${seconds(pick(0.5))} / ${seconds(pick(0.95))}` : '–';
+    const err = document.createElement('td');
+    err.className = 'err';
+    err.textContent = lastFailure ? `${lastFailure.run.date.slice(0, 10)} ${lastFailure.result.kind}：${lastFailure.result.error || ''}` : '–';
+    tr.append(name, cellsTd, rate, timing, err);
+    rows.appendChild(tr);
+  }
+})();
+</script>
+</body>
+</html>
