@@ -1,17 +1,17 @@
 {
   "schema": 1,
-  "sequence": 7,
-  "generated_at": "2026-09-28T16:42:56Z",
+  "sequence": 8,
+  "generated_at": "2026-09-29T14:19:22Z",
   "components": [
     {
       "name": "yt-dlp",
       "version": "2026.08.19",
       "platform": "macos-universal",
-      "sha256": "eb3eafa48689b4eb95540967d589ed7dbf1dd78bc199321f372518e469d0f8a9",
+      "sha256": "ea4f1ca6aafd6be22d7bcca0df4db657c6e9dae8249a50948935b018666f5d18",
       "size": 52916254,
       "archive": "zip",
       "entry": "yt-dlp_macos",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/yt-dlp-2026.08.19-macos-universal.zip",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r8/yt-dlp-2026.08.19-macos-universal.zip",
       "mirrors": []
     },
     {
@@ -22,51 +22,51 @@
       "size": 17840399,
       "archive": "raw",
       "entry": "yt-dlp.exe",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/yt-dlp-2026.08.19-windows-x86_64.exe",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r8/yt-dlp-2026.08.19-windows-x86_64.exe",
       "mirrors": []
     },
     {
       "name": "deno",
       "version": "2.9.7",
       "platform": "macos-arm64",
-      "sha256": "aed78cde7f8270aca652a18609406ad7719f4437a52fe6b9403b75c4013b8968",
+      "sha256": "5e97e8d408e8e20611f4c301408512bd73cee36096b7b260daad2c62cbe1bad1",
       "size": 80983872,
       "archive": "raw",
       "entry": "deno",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/deno-2.9.7-macos-arm64",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r8/deno-2.9.7-macos-arm64",
       "mirrors": []
     },
     {
       "name": "deno",
       "version": "2.9.7",
       "platform": "macos-x86_64",
-      "sha256": "049018f117e8aac92b213d7dd9f228e12781e14377e3a8eef64489da763d28c3",
+      "sha256": "d603c286e8c9a999083a1d7657ba987fc786862538e45ee7dbc4f8f4a172ab22",
       "size": 97832224,
       "archive": "raw",
       "entry": "deno",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/deno-2.9.7-macos-x86_64",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r8/deno-2.9.7-macos-x86_64",
       "mirrors": []
     },
     {
       "name": "ffmpeg",
       "version": "9.0.2",
-      "platform": "macos-x86_64",
-      "sha256": "395f3c2fde64915ae9cacf6d2e791e23193a500073fcf5275e460b6438a37bea",
-      "size": 81478528,
+      "platform": "macos-universal",
+      "sha256": "c037cd51dbb9576f9b3bac75c47638e19e19d5323f7c59979baae7dd6e9326a3",
+      "size": 161131664,
       "archive": "raw",
       "entry": "ffmpeg",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/ffmpeg-9.0.2-macos-x86_64",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r8/ffmpeg-9.0.2-macos-universal",
       "mirrors": []
     },
     {
       "name": "ffprobe",
       "version": "9.0.2",
-      "platform": "macos-x86_64",
-      "sha256": "f70f64ba8e1bf5d2d36cd8d3b01385e9e93a2a076e5c36809e2b4250c4d257d0",
-      "size": 81290736,
+      "platform": "macos-universal",
+      "sha256": "73a5b515d1e30d2c222d1784e5e7c7cd639d87e5aedbf9a9256a281b853db543",
+      "size": 160776624,
       "archive": "raw",
       "entry": "ffprobe",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r7/ffprobe-9.0.2-macos-x86_64",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r8/ffprobe-9.0.2-macos-universal",
       "mirrors": []
     }
   ]
