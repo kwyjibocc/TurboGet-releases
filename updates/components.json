@@ -1,20 +1,20 @@
 {
   "schema": 1,
-  "sequence": 36,
-  "generated_at": "2026-10-27T06:20:16Z",
+  "sequence": 61,
+  "generated_at": "2026-11-21T08:19:48Z",
   "components": [
     {
       "name": "yt-dlp",
       "version": "2026.10.26",
       "platform": "macos-universal",
-      "sha256": "df774178e2e9fe2397842a1538231d582b51dee68390ff45e627c700933e1d65",
+      "sha256": "3c674c9a616d49c290371b13f5efd1924734ab84b9f856a20d104738c91929fd",
       "size": 53214952,
       "archive": "zip",
       "entry": "yt-dlp_macos",
       "upstream": "2026.10.26|https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp_macos.zip",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/yt-dlp-2026.10.26-macos-universal.zip",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/yt-dlp-2026.10.26-macos-universal.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/yt-dlp-2026.10.26-macos-universal.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/yt-dlp-2026.10.26-macos-universal.zip"
       ]
     },
     {
@@ -26,136 +26,136 @@
       "archive": "raw",
       "entry": "yt-dlp.exe",
       "upstream": "2026.10.26|https://github.com/yt-dlp/yt-dlp/releases/download/2026.10.26/yt-dlp.exe",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/yt-dlp-2026.10.26-windows-x86_64.exe",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/yt-dlp-2026.10.26-windows-x86_64.exe",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/yt-dlp-2026.10.26-windows-x86_64.exe"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/yt-dlp-2026.10.26-windows-x86_64.exe"
       ]
     },
     {
       "name": "deno",
       "version": "2.9.8",
       "platform": "macos-arm64",
-      "sha256": "a2683558fdbbbe40a83fd4d0731de3f2c0241e3d75e2c7eb419c39d61d7a6345",
+      "sha256": "0a47af3f53a154f01b9d18e2e594d1480be067b3395ec1bd65fe03bfa5c2fb46",
       "size": 38314377,
       "archive": "zip",
       "entry": "deno",
       "upstream": "2.9.8|https://github.com/denoland/deno/releases/download/v2.9.8/deno-aarch64-apple-darwin.zip",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/deno-2.9.8-macos-arm64.zip",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/deno-2.9.8-macos-arm64.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/deno-2.9.8-macos-arm64.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/deno-2.9.8-macos-arm64.zip"
       ]
     },
     {
       "name": "deno",
       "version": "2.9.8",
       "platform": "macos-x86_64",
-      "sha256": "aae7513e1fc88cf22e0af09c405ed9771aaf69a4f3749153fd4951e8933d6527",
-      "size": 42802201,
+      "sha256": "ec2e53b61a2674ce7e36d17b9fa91147448f783fb238d22754df47325356705b",
+      "size": 42802193,
       "archive": "zip",
       "entry": "deno",
       "upstream": "2.9.8|https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-apple-darwin.zip",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/deno-2.9.8-macos-x86_64.zip",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/deno-2.9.8-macos-x86_64.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/deno-2.9.8-macos-x86_64.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/deno-2.9.8-macos-x86_64.zip"
       ]
     },
     {
       "name": "deno",
       "version": "2.9.8",
       "platform": "windows-x86_64",
-      "sha256": "807dfe1f5dcc3cdcca640129c9e39e31964ecca7f6415cf48833e3b761c57a20",
+      "sha256": "e9724bd4c465dc32b441248376b8b6818f7aa0bbad997a16823d00f8cb536c27",
       "size": 41819916,
       "archive": "zip",
       "entry": "deno.exe",
       "min_app_version": "0.9.0",
       "upstream": "2.9.8|https://github.com/denoland/deno/releases/download/v2.9.8/deno-x86_64-pc-windows-msvc.zip",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/deno-2.9.8-windows-x86_64.zip",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/deno-2.9.8-windows-x86_64.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/deno-2.9.8-windows-x86_64.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/deno-2.9.8-windows-x86_64.zip"
       ]
     },
     {
       "name": "ffmpeg",
-      "version": "9.0.2",
+      "version": "9.1",
       "platform": "macos-arm64",
-      "sha256": "df6bd856155888ae3bed1c685917d2a49651ae00852b0f25f0478578e3e4586f",
-      "size": 28051201,
+      "sha256": "446aa462ca6b4d335c1bc6f1e034b6b896887282ca4d4f9e59a47c25bd63376a",
+      "size": 28278308,
       "archive": "zip",
       "entry": "ffmpeg",
-      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/arm64/1789931890_9.0.2/ffmpeg.zip|\"6ab03174-1b148b3\"|Sun, 20 Sep 2026 19:18:12 GMT|28395699",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/ffmpeg-9.0.2-macos-arm64.zip",
+      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/arm64/1795207104_9.1/ffmpeg.zip|\"6b00afc2-1b4c0ee\"|Fri, 20 Nov 2026 20:38:26 GMT|28623086",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/ffmpeg-9.1-macos-arm64.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/ffmpeg-9.0.2-macos-arm64.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/ffmpeg-9.1-macos-arm64.zip"
       ]
     },
     {
       "name": "ffmpeg",
-      "version": "9.0.2",
+      "version": "9.1",
       "platform": "macos-x86_64",
-      "sha256": "19b7a5b538d2438c4cc48f294b1eeb90b384744485cdb79ddd4c4dbd67bef24c",
-      "size": 33925318,
+      "sha256": "21498e58690560f07582f4b835b791200747f381970b0c0b7d28a583fa0d38b5",
+      "size": 34180621,
       "archive": "zip",
       "entry": "ffmpeg",
-      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/amd64/1789931006_9.0.2/ffmpeg.zip|\"6ab02e01-203ff47\"|Sun, 20 Sep 2026 19:03:29 GMT|33816391",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/ffmpeg-9.0.2-macos-x86_64.zip",
+      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/amd64/1795212433_9.1/ffmpeg.zip|\"6b00c492-207c79f\"|Fri, 20 Nov 2026 22:07:14 GMT|34064287",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/ffmpeg-9.1-macos-x86_64.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/ffmpeg-9.0.2-macos-x86_64.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/ffmpeg-9.1-macos-x86_64.zip"
       ]
     },
     {
       "name": "ffprobe",
-      "version": "9.0.2",
+      "version": "9.1",
       "platform": "macos-arm64",
-      "sha256": "8f404be9301996e1bda3951df46fd5858d125bbf5bb0c8d9b78cc81e374b01b7",
-      "size": 27976187,
+      "sha256": "b50117ab6cc8be1ae5c06618972828f0422da4d7de2151552150749782ed7384",
+      "size": 28192167,
       "archive": "zip",
       "entry": "ffprobe",
-      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/arm64/1789931890_9.0.2/ffprobe.zip|\"6ab03176-1b01805\"|Sun, 20 Sep 2026 19:18:14 GMT|28317701",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/ffprobe-9.0.2-macos-arm64.zip",
+      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/arm64/1795207104_9.1/ffprobe.zip|\"6b00afc3-1b3816f\"|Fri, 20 Nov 2026 20:38:27 GMT|28541295",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/ffprobe-9.1-macos-arm64.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/ffprobe-9.0.2-macos-arm64.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/ffprobe-9.1-macos-arm64.zip"
       ]
     },
     {
       "name": "ffprobe",
-      "version": "9.0.2",
+      "version": "9.1",
       "platform": "macos-x86_64",
-      "sha256": "dd6b75def61add3e95bfcda1bdfe5a4435d7dfbe2638047cf4b24fc7d8a4afc8",
-      "size": 33827391,
+      "sha256": "237937a3acb79b1e3938e41605dcb09baa459381571ed5ddb3e3928f5e067c48",
+      "size": 34071081,
       "archive": "zip",
       "entry": "ffprobe",
-      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/amd64/1789931006_9.0.2/ffprobe.zip|\"6ab02e02-20283c1\"|Sun, 20 Sep 2026 19:03:30 GMT|33719233",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/ffprobe-9.0.2-macos-x86_64.zip",
+      "upstream": "https://ffmpeg.martin-riedl.de/download/macos/amd64/1795212433_9.1/ffprobe.zip|\"6b00c493-2062e28\"|Fri, 20 Nov 2026 22:07:15 GMT|33959464",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/ffprobe-9.1-macos-x86_64.zip",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/ffprobe-9.0.2-macos-x86_64.zip"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/ffprobe-9.1-macos-x86_64.zip"
       ]
     },
     {
       "name": "ffmpeg",
-      "version": "9.0.2",
+      "version": "9.1",
       "platform": "windows-x86_64",
-      "sha256": "3256173f3f8bffd7df12227c68adf68025edb1832273a9530688a7bb1ed8edec",
-      "size": 105423872,
+      "sha256": "ed8f66cb877087a96f5bbb40a2944f0e764f2ad8870d5cb647360d912e62bc07",
+      "size": 110590976,
       "archive": "raw",
       "entry": "ffmpeg.exe",
-      "upstream": "9.0.2|https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/ffmpeg-9.0.2-windows-x86_64.exe",
+      "upstream": "9.1|https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/ffmpeg-9.1-windows-x86_64.exe",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/ffmpeg-9.0.2-windows-x86_64.exe"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/ffmpeg-9.1-windows-x86_64.exe"
       ]
     },
     {
       "name": "ffprobe",
-      "version": "9.0.2",
+      "version": "9.1",
       "platform": "windows-x86_64",
-      "sha256": "f0d36ecbbdd3bcfac3efa078c96c7271c2e68b3810595552ac3b7f17e9a65c52",
-      "size": 105221120,
+      "sha256": "df0199f606faa88e9ad192732a7c3987acfb647663534c297772e17730611a08",
+      "size": 110374912,
       "archive": "raw",
       "entry": "ffprobe.exe",
-      "upstream": "9.0.2|https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
-      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r36/ffprobe-9.0.2-windows-x86_64.exe",
+      "upstream": "9.1|https://www.gyan.dev/ffmpeg/builds/ffmpeg-release-essentials.zip",
+      "url": "https://github.com/kwyjibocc/TurboGet-releases/releases/download/components-r61/ffprobe-9.1-windows-x86_64.exe",
       "mirrors": [
-        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r36/ffprobe-9.0.2-windows-x86_64.exe"
+        "https://gitee.com/kwyjibo/turbo-get-releases/releases/download/components-r61/ffprobe-9.1-windows-x86_64.exe"
       ]
     }
   ]
